@@ -22,7 +22,9 @@ const colorfulGoodbye = goodbyeText
   .map((char, i) => `${colors[i % colors.length]}${char}`)
   .join("");
 
+console.log("This is from A!!!!")
 console.log("This is from B")
+console.log("From C")
 
 console.log("In-between")
 console.log("Another one in-between")
