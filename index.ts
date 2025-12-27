@@ -15,3 +15,11 @@ const colorfulText = text
   .join("");
 
 console.log(colorfulText + reset);
+
+const goodbyeText = "Good bye!";
+const colorfulGoodbye = goodbyeText
+  .split("")
+  .map((char, i) => `${colors[i % colors.length]}${char}`)
+  .join("");
+
+console.log(colorfulGoodbye + reset);
